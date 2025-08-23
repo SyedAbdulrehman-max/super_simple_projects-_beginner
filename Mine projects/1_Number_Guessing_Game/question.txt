@@ -1,0 +1,13 @@
+🔹 What is the game?
+
+The computer will pick a random number (for example, between 1 and 100).
+
+The player has to guess the number.
+
+The computer gives hints like:
+
+“Too high” (if guess is bigger than the number)
+
+“Too low” (if guess is smaller than the number)
+
+The game ends when the player guesses correctly.
