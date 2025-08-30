@@ -1,0 +1,2 @@
+A **Dice Roller Simulator** is a small program that pretends to roll a dice and gives a random number between 1 and 6.
+It uses **random numbers** for luck and **functions** to keep the code neat and reusable.
