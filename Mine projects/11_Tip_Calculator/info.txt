@@ -1,0 +1,25 @@
+There are **two ways** this can work in your project, depending on what you want:
+
+1. **User puts tip separately**
+
+   * The program asks: "Enter bill amount" → user types 1000
+   * Then asks: "Enter tip percentage" → user types 10
+   * Program calculates → tip = 100, total = 1100
+
+2. **Cut tip from total bill**
+
+   * The program asks: "Enter total money you have" → user types 1000
+   * Then asks: "Enter tip percentage" → user types 10
+   * Program calculates → tip = 100, remaining = 900 (bill after giving tip)
+
+So it depends:
+
+* **If you want to *add* tip → user puts tip separately.**
+* **If you want to *deduct* tip → you cut from the total bill.**
+
+percentage=( mark / total Marks) * 100
+percentage = ( 40 / 100 ) * 100
+
+percentage to number
+
+number= ( percentage / 100 ) * total number

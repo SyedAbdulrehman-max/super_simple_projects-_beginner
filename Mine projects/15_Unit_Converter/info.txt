@@ -1,0 +1,11 @@
+Welcome to Unit Converter!
+
+Choose conversion:
+1. Km → Miles
+2. Miles → Km
+3. Celsius → Fahrenheit
+4. Fahrenheit → Celsius
+
+Enter your choice (1-4): 1
+Enter value in kilometers: 10
+Result: 10 km = 6.21371 miles

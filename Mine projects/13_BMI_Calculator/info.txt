@@ -1,0 +1,74 @@
+# What the task wants (in plain words)
+
+* Ask the user for **weight** and **height**.
+* Use the **BMI formula** to calculate their Body Mass Index.
+* Show the **BMI number** and (usually) a **category** like “Underweight”, “Normal”, “Overweight”, etc.
+
+# The math you need
+
+**BMI = weight\_kg / (height\_m)^2**
+
+* Weight must be in **kilograms (kg)**
+* Height must be in **meters (m)**
+  (If the user gives centimeters, you must convert: `height_m = cm / 100`)
+
+# What to build (thinking in Python)
+
+* A **function** (for example, `calculate_bmi(weight, height)`) that:
+
+  1. **Validates** inputs (no zeros or negatives).
+  2. **Calculates** BMI using the formula.
+  3. **Returns** the BMI value (you can round to 1–2 decimals).
+
+* Optionally another small function (or logic) to **classify** the BMI:
+
+  * Underweight: `< 18.5`
+  * Normal: `18.5–24.9`
+  * Overweight: `25–29.9`
+  * Obesity: `>= 30`
+
+# Example (step-by-step math)
+
+Suppose:
+
+* weight = **70 kg**
+* height = **1.75 m**
+
+Compute:
+
+* height² = 1.75 × 1.75 = **3.0625**
+* BMI = 70 ÷ 3.0625 = **22.86…** → about **22.9** (Normal)
+
+# Inputs/Outputs you should handle
+
+**Inputs** (from user):
+
+* Weight (kg)
+* Height (m)
+  (If they enter cm, convert to m: `m = cm / 100`.)
+
+**Outputs** (to user):
+
+* The BMI number (rounded).
+* The category (optional but common).
+
+# Common beginner mistakes to avoid
+
+* ❌ Using **centimeters directly** in the formula (must convert to meters).
+* ❌ Using **integer division** by mistake (in Python 3 `/` is fine).
+* ❌ Not checking for **0 or negative** values (height cannot be 0).
+* ❌ Mixing **lbs/feet** with **kg/m** (keep units consistent).
+  If you must accept imperial units:
+
+  * kg = lbs × 0.453592
+  * m = inches × 0.0254 (or m = feet × 0.3048)
+
+# A simple plan you can follow
+
+1. Get weight (kg) and height (m) from the user.
+2. Validate: both must be positive.
+3. Compute BMI using the formula.
+4. Round the result (e.g., 1–2 decimals).
+5. Print BMI and (optionally) the category.
+
+If you want, I can turn this into a tiny, clean Python function and a short example interaction next.

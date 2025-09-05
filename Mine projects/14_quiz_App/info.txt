@@ -1,0 +1,103 @@
+### Question:
+
+**Quiz App – Load and take a multiple-choice quiz – (Dicts, lists, logic)**
+
+---
+
+### Explanation as a Python program (step by step, no solution code):
+
+1. **Storing Questions (Dicts and Lists)**
+
+   * We need some questions with options and answers.
+   * In Python, we can store this data using **lists** (to keep multiple questions) and **dictionaries** (to describe each question).
+   * Example idea:
+
+     ```python
+     {
+       "question": "What is the capital of Pakistan?",
+       "options": ["Lahore", "Islamabad", "Karachi", "Multan"],
+       "answer": "Islamabad"
+     }
+     ```
+   * A **list of such dictionaries** can hold the entire quiz.
+
+2. **Asking Questions (Loops)**
+
+   * We go through each question one by one using a **loop**.
+   * For every question, display the text and all its options.
+
+3. **Taking Input (Logic with User Choice)**
+
+   * The user types the option number or text.
+   * Compare the user’s answer with the correct answer stored in the dictionary.
+   * If it matches → give points.
+   * If not → mark it wrong.
+
+4. **Scoring System**
+
+   * Start with score = 0.
+   * Every time the user answers correctly, increase the score.
+   * At the end, show the total score.
+
+5. **Logic Summary**
+
+   * Use **lists** → hold all the questions.
+   * Use **dicts** → define each question with options and answer.
+   * Use **loops** → ask all questions.
+   * Use **if/else logic** → check answers and update score.
+
+
+
+
+
+
+
+What is the capital of Pakistan?
+
+a) Lahore
+
+b) Islamabad ✅
+
+c) Karachi
+
+d) Multan
+
+Which data type is used to store multiple values in Python?
+
+a) int
+
+b) str
+
+c) list ✅
+
+d) bool
+
+What does if statement do in Python?
+
+a) Repeats code
+
+b) Stores data
+
+c) Makes decisions ✅
+
+d) Defines a function
+
+Which symbol is used for comments in Python?
+
+a) //
+
+b) <!-- -->
+
+c) # ✅
+
+d) %
+
+What will len("apple") return?
+
+a) 4
+
+b) 5 ✅
+
+c) 6
+
+d) error
