@@ -1,0 +1,3 @@
+burger 300
+sal 300
+pizaa 200

@@ -1,0 +1,45 @@
+How the Program Flows (Step by Step)
+
+Start program
+
+Show a menu:
+
+Add new expense
+
+Show all expenses
+
+Show total spending
+
+Exit
+
+Add new expense
+
+Ask the user:
+
+Category (Food, Travel, etc.)
+
+Amount (number)
+
+Optional note (e.g., "Lunch with friends")
+
+Format the entry as a string, e.g.: "Food - 500 - Lunch with friends".
+
+Save it in a list and also append it to the file.
+
+Show all expenses
+
+Read the file line by line.
+
+Display each expense (so you see the history even if you close/reopen the program).
+
+Show total spending
+
+Read the file.
+
+Extract just the numbers (amounts).
+
+Add them all up and display the result.
+
+Exit
+
+Quit the program when the user chooses.
