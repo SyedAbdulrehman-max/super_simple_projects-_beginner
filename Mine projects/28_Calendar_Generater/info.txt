@@ -1,0 +1,17 @@
+
+### 📌 Calendar Generator (Info)
+
+The **`calendar` module** in Python is used to display months and years in calendar form. It can also check leap years and weekdays.
+
+**Useful Commands:**
+
+* `calendar.month(year, month)` → Show one month
+* `calendar.calendar(year)` → Show full year
+* `calendar.isleap(year)` → Check leap year
+* `calendar.weekday(year, m, d)` → Find weekday of a date
+
+**How it works (solution idea):**
+
+1. Import the `calendar` module.
+2. Ask the user for year (and month).
+3. Use `calendar.month()` or `calendar.calendar()` to display the result.

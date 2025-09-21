@@ -1,0 +1,20 @@
+Palindrome Checker	Check if a string is a palindrome	Strings, logic
+
+### 📌 Palindrome Checker (Project Info)
+
+A **palindrome** is a word, number, or phrase that reads the same forward and backward.
+Examples: `madam`, `121`, `racecar`.
+
+In this project, the program:
+
+1. Takes a word or sentence as input.
+
+2. Reverses the string.
+
+3. Compares the original and reversed strings.
+
+4. If both are the same → it’s a palindrome.
+
+5. Otherwise → it’s not a palindrome.
+
+This project helps practice **strings, logic, and conditions** in programming.
