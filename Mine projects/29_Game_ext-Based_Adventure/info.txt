@@ -1,0 +1,7 @@
+📝 Project Info: Text-Based Adventure Game
+
+This project is a simple Python text-based adventure game .
+The player explores rooms, opens a box to find a key, and unlocks doors.
+Choices decide if the player  escapes and wins  or gets  caught and loses .
+It uses `print()`, `input()`, loops, and `time.sleep()` for suspense.
+
