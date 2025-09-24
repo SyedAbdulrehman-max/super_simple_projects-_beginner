@@ -1,0 +1,78 @@
+
+
+Resume Builder (CLI)	Collect input and create a text resume	Input/output, strings
+
+
+## 📝 Inputs to Collect from User
+
+### 1. Personal Information
+
+* Full Name
+* Job Title (optional, e.g., “Software Engineer”)
+* Email Address
+* Phone Number
+* Location (City, Country)
+
+---
+
+### 2. Summary / Objective
+
+* A short 2–3 sentence summary about the user (career goals, strengths).
+
+---
+
+### 3. Education (can be multiple)
+
+For each education entry:
+
+* Degree (e.g., B.Sc. Computer Science)
+* Institution / School Name
+* Years (e.g., 2018 – 2022)
+
+---
+
+### 4. Work Experience (can be multiple)
+
+For each job:
+
+* Company Name
+* Role / Job Title
+* Years (Start – End)
+* Responsibilities or Achievements (bullet points, multiple lines)
+
+---
+
+### 5. Projects (optional, can be multiple)
+
+For each project:
+
+* Project Title
+* Short Description
+* Tools / Technologies used
+
+---
+
+### 6. Skills
+
+* A list of skills (either typed one by one or comma-separated).
+  Example: Python, Excel, Communication, Teamwork
+
+---
+
+### 7. Certifications / Awards (optional)
+
+* Name of certification or award
+* Year or organization
+
+---
+
+### 8. Languages (optional)
+
+* List of languages user can speak/write (e.g., English, Urdu, Arabic).
+
+---
+
+### 9. Hobbies / Interests (optional)
+
+* List of hobbies or interests (e.g., Reading, Football, Traveling).
+
