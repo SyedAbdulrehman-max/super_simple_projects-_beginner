@@ -1,0 +1,55 @@
+Email Slicer	Extract username and email	Strings
+
+
+
+### 📌 Key Points about Reading JSON & Loops in Python
+
+1. **JSON structure matters**
+
+   * If your JSON is a list (`[...]`), you loop through it with `for item in data:`.
+   * If your JSON is a dictionary (`{...}`), you access keys directly with `data["key"]`.
+
+2. **Loop behavior**
+
+   * A `for` loop goes through each item in the list **one by one**.
+   * It stops **only when all items are processed**.
+
+3. **What happens if JSON is empty (`[]`)?**
+
+   * The loop won’t run at all (no error, just no output).
+
+4. **When keys don’t match**
+
+   * If you write `item["name"]` but the object has `"username"` instead → Python raises a **KeyError** and stops the loop immediately.
+
+5. **How to prevent errors**
+
+   * Use `.get("key")` → returns the value if the key exists, otherwise `None` (or a default you choose).
+   * Example:
+
+     ```python
+     item.get("name", "No name found")
+     ```
+
+6. **Mixed keys in JSON**
+
+   * If some objects use `"name"` and others use `"username"`, you need to handle both.
+   * Example logic:
+
+     ```python
+     print(item.get("name") or item.get("username"))
+     ```
+
+     👉 This prints `"name"` if it exists, otherwise `"username"`.
+
+7. **Separator lines (`"-" * 20`)**
+
+   * This is just for formatting output, has nothing to do with JSON itself.
+
+---
+
+⚡ In short:
+
+* Loop runs until the **list is done**, not until it “jumps.”
+* Wrong key → program stops with error (unless you use `.get()`).
+* JSON must be structured properly for your code to work.
